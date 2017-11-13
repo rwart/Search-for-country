@@ -1,0 +1,21 @@
+{
+  "libs": [
+    "browser",
+    "jquery"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": false
+    },
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    }
+  },
+  "ecmaVersion": "6",
+  "loadEagerly": [],
+  "dontLoad": []
+}

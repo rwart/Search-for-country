@@ -1,0 +1,25 @@
+{
+  "name": "mod-12-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "Grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwart/mod-12-6.git"
+  },
+  "author": "rwart",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rwart/mod-12-6/issues"
+  },
+  "homepage": "https://github.com/rwart/mod-12-6#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
