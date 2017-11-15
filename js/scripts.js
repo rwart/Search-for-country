@@ -60,12 +60,12 @@ $(function () {
         .addClass('col-xs-3')
         .appendTo($row);
       $('<img>')
-        .attr('src', item.flag)
+        .attr('src', (('flag' in item) ? item.flag : '#'))
         .addClass('flag')
         .appendTo($col);
       $('<div>')
         .addClass('col-xs-9 name')
-        .text(item.name)
+        .text(('name' in item) ? item.name : '')
         .appendTo($row);
       $('<div>')
       .addClass('row country-header')
