@@ -1,0 +1,73 @@
+.title {
+  margin-top: 10px;
+  font-family: serif;
+}
+
+#country-name, #search {
+  margin-top: 5px;
+}
+#country-name {
+  width: 280px;
+}
+
+#countries {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.country {
+  background: #FFF;
+  margin-bottom: 20px;
+}
+
+.country-header, .country-footer {
+  color: #FFF;
+  background: #000080;
+  min-height: 20px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.flag {
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px grey;
+  margin: 5px;
+}
+
+.name-row {
+  display: flex;
+  align-items: center;
+}
+.name {
+  color: #4646e3;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: serif;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+[class*="position-"] {
+  color: #4646e3;
+  font-weight: bold;
+}
+
+.position-label {
+  background: #ffc800;
+  padding: 2px 1px 2px 1px;
+}
+
+.position-value {
+  background: #ffff99;
+  padding:  2px 1px 2px 1px;
+}
+
+.position-row {
+  margin-top: 1px;
+}
+
+.error-mess {
+  list-style-type: none;
+  max-width: 400px;
+}
